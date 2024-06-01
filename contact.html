@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            outline: none;
+            list-style: none;
+            border: none;
+            text-transform: capitalize;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        nav{
+            background-color: black;
+            position: relative;
+            top: 0%;
+            color: aliceblue;
+            padding: 2rem 4rem;
+            
+        }
+        .contenair{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contenair .left, .center, .rigth{
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        main{
+            padding: 1rem 4rem;
+        }
+
+        .main-contanir{
+            background-color: aliceblue;
+            padding: 1rem;
+            width: 100%;
+            height: 100%;
+        }
+
+        .left h3{
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            /*text-shadow: 0 0  1rem rgb(4, 4, 185);*/
+            padding: .3rem;
+            box-shadow: 0 0 .2rem rgb(87, 92, 97);
+            border-radius: 5px;
+        }
+
+        .left p{
+            color: aqua;
+            text-decoration: underline;
+            letter-spacing: .2rem;
+        }
+        .left small{
+            position: absolute;
+            background-color: aqua;
+            height: 20px;
+            width: 20px;
+            left: 4.5rem;
+            top: 2.4rem;
+            border-top-right-radius: 100%;
+        }
+
+        .left h5{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            top: 2.6rem;
+            left: 9.5rem;
+        }
+
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .cont{
+            color: orange;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="contenair vav-contnair">
+            <div class="left">
+                <small></small>
+                <h5> {/} </h5>
+                <h3>fox <p>maninfor</p></h3>
+            </div>
+            <div class="center">
+                <p>entreprise</p>
+                <p>Musique</p>
+            </div>
+            <div class="rigth">
+                <h3><a href="index.html">accueil</a ></h3>
+                <h3><a href="contact.html" class="cont">contact</a ></h3>
+                <h3><a href="apropos.html">a propos</a></h3>
+            </div>
+            
+        </div>
+    </nav>
+
+    <main>
+        <div class="main-contanir">
+            <h2>NOUS CONTACTER</h2>
+        </div>
+    </main>
+</body>
+</html>
