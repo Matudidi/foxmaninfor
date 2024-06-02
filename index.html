@@ -20,7 +20,7 @@
             position: relative;
             top: 0%;
             color: aliceblue;
-            padding: 2rem 4rem;
+            padding: 1% 4rem;
             
         }
         .contenair{
@@ -89,6 +89,121 @@
         .accuiel{
             color: orange;
         }
+
+
+        main{
+            padding: 1rem 4rem;
+            overflow: hidden;
+        }
+
+        .main-contanir{
+            background-color: aliceblue;
+            padding: 1rem;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .left h3{
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            /*text-shadow: 0 0  1rem rgb(4, 4, 185);*/
+            padding: .3rem;
+            box-shadow: 0 0 .2rem rgb(87, 92, 97);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .left p{
+            color: aqua;
+            text-decoration: underline;
+            letter-spacing: .2rem;
+        }
+        .left small{
+            position: absolute;
+            background-color: aqua;
+            height: 20px;
+            width: 20px;
+            left: 4.5rem;
+            top: 1.2rem;
+            border-top-right-radius: 100%;
+        }
+
+        .left h5{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            top: 1.5rem;
+            left: 9.5rem;
+        }
+
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .apropos{
+            color: orange;
+        }
+
+        main a{
+            color: black;
+        }
+
+        .wrapper{
+            overflow-x: auto;
+            display: flex;
+        }
+
+        
+        .card{
+            display: flex;
+            gap: 1rem;  
+            margin-top: .3rem;
+            margin-bottom: 1rem;
+            margin-left: .1rem;
+            margin-right: .3rem;
+           
+        }
+        .cont-card{
+            height: 11rem;
+            width: 8rem;
+            max-width: 20rem;
+            background-color: rgb(255, 255, 254);
+            border-radius: 5px;
+            box-shadow: 0 0 .3rem rgb(32, 26, 14);
+            padding: .5rem;
+            cursor: pointer;
+        }
+
+        .cont1{
+            background: linear-gradient(-20deg, red,blue, red);
+            margin-bottom: 1rem;
+            height: 10rem;
+            box-shadow: 0 0 .2rem blueviolet;
+            position: sticky;
+        }
+
+        .nav-tri{
+            display: flex;
+            justify-content: space-around;
+            gap: 2rem;
+            border-top: 1px solid #fff;
+            position: sticky;
+            padding: 1rem 0;
+        }
+
+        .jscss{
+            position: fixed;
+            background-color: black;
+            padding: 2rem;
+            width: 100%;
+            top: 0%;
+            z-index: 1;
+            transform: scale(-10px);
+        }
     </style>
 </head>
 <body>
@@ -110,12 +225,57 @@
             </div>
             
         </div>
+        <!-- #region 
+        <div class="nav-tri">
+            <h4>manza</h4>
+            <h4>manza</h4>
+            <h4>manza</h4>
+        </div>
+        -->
     </nav>
 
     <main>
+        <div class="main-contanir cont1">
+            <h4>paneau de publicité</h4>
+            
+        </div>
         <div class="main-contanir">
-            <h2>BIENVENU CHEZ ILLUSTRATE PIANO</h2>
+            <h4>CATEGORIES</h4>
+            <div class="wrapper">
+                <div class="card">
+                    
+                <div class="cont-card">
+                    lorem*10    
+                </div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                </div>
+            </div>
+            <h4>CATEGORIES</h4>
+            <div class="wrapper">
+                <div class="card">
+                    
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                <div class="cont-card"></div>
+                </div>
+            </div>
         </div>
     </main>
+    <script src="js.js"></script>
 </body>
 </html>
