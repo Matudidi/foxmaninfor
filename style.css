@@ -13,17 +13,30 @@
     align-items: center;
     justify-content: center;
     padding: 50px 8%;
+    background-color: rgb(41, 40, 40);
 }
 
 .gallery{
     background-color: beige;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
+    grid-gap: 25px;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.gallery a{
+    background-color: rgb(8, 9, 15);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 .3rem  rgb(22, 21, 27);
+    height: auto;
 }
 
 .gallery img{
     width: 100%;
+    border-radius: 5px;
 }
 
 .gallery a{
@@ -34,5 +47,5 @@
 }
 
 .gallery a p{
-    color: black;
+    color: aliceblue;
 }
