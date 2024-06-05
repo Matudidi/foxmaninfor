@@ -65,4 +65,8 @@
     .gallery a{
         height: max-content;
     }
+
+    main {
+        padding: 1rem;
+    };
 }
